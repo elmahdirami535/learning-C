@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * this is a comment 
+ * main have so much stuff
  *
- * yeah brother
+ * main value int and void
  *
- * what's up
+ * return should be void
  */
 
 int main(void)
 {
+	what();
+	what();
 	what();
 }
