@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.c"
 
 /**
  *this is a comment
@@ -12,5 +12,5 @@
 
 int main(void)
 {
-	conditional(void);
+	conditional();
 }
