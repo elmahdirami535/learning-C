@@ -10,6 +10,7 @@ int conditional(void)
 	}else{
 		puts("Fail\n");
 	}
+	return (0);
 }
 
 	
