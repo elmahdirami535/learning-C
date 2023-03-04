@@ -12,5 +12,5 @@
 
 int main(void)
 {
-	conditional(void);
+	conditional();
 }
