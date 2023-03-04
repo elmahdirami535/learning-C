@@ -8,7 +8,7 @@ int conditional(void)
 	if (grade1 > 60) {
 		printf("Pass\n");
 	}else{
-		puts("Fail\n");
+		printf("Fail\n");
 	}
 	return (0);
 }
