@@ -5,5 +5,6 @@
 
 int conditional(void);
 int cause(void);
+int passweord(void);
 
 #endif
