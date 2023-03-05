@@ -15,4 +15,5 @@ int main(void)
 	conditional();
 	cause();
 	passweord();
+	cause();
 }
