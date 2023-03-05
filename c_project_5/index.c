@@ -7,7 +7,7 @@
  *
  * return 0
  *
- * main have two value
+ * main(void)
  */
 
 int main(void)
