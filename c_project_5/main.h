@@ -6,5 +6,6 @@
 int conditional(void);
 int cause(void);
 int passweord(void);
+int lopie(void);
 
 #endif

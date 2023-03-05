@@ -40,3 +40,25 @@ int passweord(void)
 		printf("You now have access.\n");
 	}
 }
+
+int lopie(void)
+{
+	printf("this is a do-while loop \n\n");
+	int i = 11;
+
+	do {
+		printf("%d\n", i);
+		i++;
+	} while (i < 10);
+
+	printf("here is a while loop \n\n");
+
+	int is = 9;
+	int square = 0;
+
+	// Write a while loop here:
+	while (is >= 0) {
+		printf("%d\t%d\n", is, is * is);
+		is--;
+	}
+}

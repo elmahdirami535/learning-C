@@ -16,4 +16,5 @@ int main(void)
 	cause();
 	passweord();
 	cause();
+	lopie();
 }
