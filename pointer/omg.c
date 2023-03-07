@@ -11,7 +11,7 @@ int *ptr = &arr[9];
   // Code for Checkpoint 2 goes here.
 for (int i = 0 ; i < arr[9] ; i--)
 {
-  printf("%d", arr[9]);
+printf("%d", *ptr);
 
 }
   // Code for Checkpoint 3 goes here.
