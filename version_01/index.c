@@ -6,7 +6,7 @@ int main(void)
 	float r = 0.5, circumfrence = 2;
 	float PI = 3.14;
 	int value  = get_int("Lets calculate the circle's circumf \n What value do you have ? \n If you have the radius, print 1\n If you have diameter , print 2\n");
-	switch(value)
+	switch (value)
 	{
 		case 2:
 			float d = get_float("What is your circle diameter?\n ");
