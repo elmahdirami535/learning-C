@@ -12,7 +12,7 @@ int main(void)
 			float d = get_float("What is your circle diameter?\n ");
 			r *= d;
 			circumfrence *= PI * r;
-			printf("\n Your circle's circumference is %.2f.", circumfrence);				
+			printf("\n Your circle's circumference is %.2f.", circumfrence);
 			break;
 		case 1:
 			r = get_float("What is your circle radius?\n ");
