@@ -7,7 +7,7 @@ int main() {
 
 
   // Code for Checkpoint 1 goes here.
-int *ptr = &arr[9];
+int *ptr = &arr[0];
   // Code for Checkpoint 2 goes here.
 for (int i = 0 ; i < 10 ; i++)
 {
