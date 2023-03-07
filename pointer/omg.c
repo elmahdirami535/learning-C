@@ -9,7 +9,7 @@ int main() {
   // Code for Checkpoint 1 goes here.
 int *ptr = &arr[9];
   // Code for Checkpoint 2 goes here.
-for (int i = 0 ; i < arr[9] ; i--)
+for (int i = 0 ; i < arr[9] ; i - 1)
 {
 printf("%p\n", &ptr);
 
