@@ -1,28 +1,24 @@
-
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
-
-/**
- * main - Entry point
- *
- * Description: print value of n satus; zero, positive or negative
- *
- * Return: Always 0 (Success)
- */
-
-#include<stdio.h>
 
 int main(void)
 {
+	char msg[] = "hello";
+	char *ponter= msg;
 
-	double g = 9.81;
-	double *dblPtr;
-	double pi = 3.14;
+	int gr = 100;
+	int* omg= &gr;
 
-	*dblPtr = g;
+	int mahdi = 100;
+	int* popo = &mahdi;
 
-	printf("%p\n", &g);
+	printf("%p\n", popo); // Print the address pointed to mahdi
+	printf("%p\n", &mahdi); //Print the address of mahdi
+	printf("\n\n-------------------------------------------------------------\n\n");
+
+	printf("%p\n", ponter);
+	printf("\n\n-------------------------------------------------------------\n\n");
+	printf("%p\n", omg);
+	printf("%p\n", &gr);
+
 }
 
