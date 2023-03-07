@@ -12,6 +12,9 @@
 int main(void)
 {
 	int value;
+	float d;
+	float r;
+	float PI = 3.14;
 
 	printf("Lets calculate the circle's circumfrence!\n");
 	printf("What values do you have ?\n");
@@ -21,11 +24,6 @@ int main(void)
 
 	if (value == 2)
 	{
-
-		float d;
-		float r;
-		float PI = 3.14;
-
 		printf("What is your circle diameter?\n");
 		scanf(" %f ", &d);
 
@@ -38,9 +36,6 @@ int main(void)
 	else if (value == 1)
 	{
 
-		float d;
-		float r;
-		float PI = 3.14;
 		printf("What is your circle radius?\n");
 		scanf(" \n%f ", &r);
 
