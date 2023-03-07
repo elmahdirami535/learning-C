@@ -12,7 +12,7 @@ int *ptr = &arr[9];
 for (int i = 0 ; i < 10 ; i++)
 {
 printf("%p\n", &ptr);
-
+ptr++;
 }
   // Code for Checkpoint 3 goes here.
 
