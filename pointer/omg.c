@@ -9,9 +9,9 @@ int main() {
   // Code for Checkpoint 1 goes here.
 int *ptr = &arr[9];
   // Code for Checkpoint 2 goes here.
-for (int i = 0 ; i < arr[9] ; i++)
+for (int i = 0 ; i < arr[] ; i++)
 {
-printf("%p\n", *ptr);
+printf("%p\n", &ptr);
 
 }
   // Code for Checkpoint 3 goes here.
