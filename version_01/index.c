@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <cs50.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: print value of n satus; zero, positive or negative
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 	float r = 0.5, circumfrence = 2;
