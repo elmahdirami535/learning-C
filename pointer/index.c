@@ -13,9 +13,11 @@
 
 int main(void)
 {
-	int arr[] = {3,8,6,2,0,4};
-	int* p = &arr[0];
-	p++;
-	p++;
-	printf("%i", *p);
+	int i = 16; 
+	int *pointer = &i;
+
+	printf("%p\n", &i);
+	printf("%p\n", pointer);
+	printf("%p\n", *pointer);
+	printf("%p\n", &pointer);
 }
