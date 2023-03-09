@@ -20,6 +20,6 @@ int main(void)
 	printf("%p\n", pointer); //pointer is the value stored in the pointer pointer, which is also the address of the variable i
 	printf("%p\n", *pointer); //*pointer is the value pointed to by the pointer pointer, which is the value of the variable i
 	printf("%p\n", &pointer); //&pointer is the address of the pointer pointer. 
-}
+} 
 
 
