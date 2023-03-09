@@ -14,7 +14,7 @@
 int main(void)
 {
 	int i = 16; 
-	int *pointer = &i
+	int *pointer = &i;
 
 	printf("%p\n", &i); //&i is the address of the variable i
 	printf("%p\n", pointer); //pointer is the value stored in the pointer pointer, which is also the address of the variable i
