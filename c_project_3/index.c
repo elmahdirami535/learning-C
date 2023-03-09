@@ -1,16 +1,23 @@
-#include "main.h"
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+#include <time.h>
+#include <strings.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+
 
 /**
- * main have so much stuff
+ * main - Entry point
  *
- * main value int and void
+ * Description: print value of n satus; zero, positive or negative
  *
- * return should be void
- */
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
-	what();
-	what();
-	what();
+	printf(this is a module);
+	return (0);
 }
