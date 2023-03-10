@@ -9,11 +9,9 @@
 
 
 /**
- * main - Entry point
- *
- * Description: print value of n satus; zero, positive or negative
- *
- * Return: Always 0 (Success)
+ * strlen: calculates and returns the length of a given string excluding the null terminator
+ * \0. The function takes a pointer to a string argument and iterates over the characters until
+ * it reaches the null terminator.
  */
 
 void mahdi(void);
