@@ -85,7 +85,9 @@ int omg(void)
 
 int upper(void)
 {
-	char string[] = {"hello, what's up"};
+	char string = 'h';
+	char emojie ;
 
-	printf("it make the letter from lower to upper :o magic %s", toupper(string));
+	emojie = toupper(string);
+	printf("it make the letter from lower to upper :o magic : %c", emojie);
 }
