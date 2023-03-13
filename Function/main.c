@@ -63,4 +63,8 @@ int strcpyy(void)
 
 int abss(void)
 {
+	int hey = 15
+	int value;
+	value = abs(hey);
+	printf("%i, value");
 }
