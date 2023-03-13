@@ -17,6 +17,6 @@ int abss(void);
 int bambo(void);
 int omg(void);
 int upper(void);
-int lower(void);
+int uppermaybe(void);
 
 #endif

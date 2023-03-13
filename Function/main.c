@@ -65,6 +65,7 @@ int abss(void)
 {
 	int hey = -19;
 	int value;
+
 	value = abs(hey);
 	printf("%i\n\n", value);
 }
@@ -72,6 +73,7 @@ int abss(void)
 int bambo(void)
 {
 	double omg = 9.7;
+
 	printf("Ceiling of %.1f = %.1f \n\n", omg, ceil(omg));
 }
 
@@ -79,6 +81,7 @@ int omg(void)
 {
 	double i = 100;
 	double results;
+
 	results = log(i);
 	printf("the logarithm of %.2lf , is %.5lf \n\n", i , results);
 }
@@ -89,14 +92,20 @@ int upper(void)
 	char emojie ;
 
 	emojie = toupper(string);
-	printf("it make the letter from lower to upper :o magic : %c", emojie);
+	printf("it make the letter from lower to upper :o magic : %c \n\n", emojie);
 }
 
 
-int lower(void)
+int uppermaybe(void)
 {
-	char star = "S";
+	char minio, star = 'S';
 
-	printf("this make the word lower case like s it becaume %c", isupper(star));
+	if (isupper(star))
+	{
+		printf(" %c is upper case", star);
+	}else{
+		printf(" %c is lower case", star);
+	}
 	return (0);
+
 }
