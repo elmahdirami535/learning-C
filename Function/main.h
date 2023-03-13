@@ -6,5 +6,5 @@
 
 int size(void);
 int point(void);
-
+int size(void);
 #endif
