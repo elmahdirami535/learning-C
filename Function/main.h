@@ -3,9 +3,14 @@
 
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 
 int size(void);
 int point(void);
 int size(void);
-int strlenn(void);
+int strleen(void);
+int strcatt(void);
+int strcpyy(void);
+
+
 #endif

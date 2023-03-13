@@ -10,5 +10,7 @@ int main(void)
 {
 	point();
 	size();
-	
+	strleen();
+	strcatt();
+	strcpyy();
 }
