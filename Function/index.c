@@ -18,4 +18,5 @@ int main(void)
 	omg();
 	upper();
 	uppermaybe();
+	my_random();
 }

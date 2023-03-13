@@ -102,10 +102,15 @@ int uppermaybe(void)
 
 	if (isupper(star))
 	{
-		printf(" %c is upper case", star);
+		printf(" %c is upper case\n", star);
 	}else{
-		printf(" %c is lower case", star);
+		printf(" %c is lower case\n", star);
 	}
 	return (0);
+}
 
+int my_random(void)
+{
+	int r = rand() % 100;
+	printf("%d\n\n", r);
 }

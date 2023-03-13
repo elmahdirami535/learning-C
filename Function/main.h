@@ -18,5 +18,6 @@ int bambo(void);
 int omg(void);
 int upper(void);
 int uppermaybe(void);
+int my_random(void);
 
 #endif
