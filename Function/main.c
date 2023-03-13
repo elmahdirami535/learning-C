@@ -18,7 +18,14 @@ int point()
 
 int size()
 {
-	char b[] = {"hello that fun"};
-	printf("the size of this char is:%lu\n\n",sizeof(b));
+	int a = 56;
+	char b[] = {"hello that's fun"};
+	printf("the size of this char is:%lu\nAnd here is the size of the int %lu\n",sizeof(b), sizeof(a));
 	return sizeof(b);
 }
+
+int strleen()
+{
+	
+}
+

@@ -7,4 +7,5 @@
 int size(void);
 int point(void);
 int size(void);
+int strlenn(void);
 #endif
