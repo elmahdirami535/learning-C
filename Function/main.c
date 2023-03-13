@@ -1,36 +1,19 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ *this is a description
  *
- * Description: print value of n satus; zero, positive or negative
- *
- * Return: Always 0 (Success)
+ *this is a project that cover everything
  */
 
-
-int pointer(void)
+int size(void)
 {
-	int num[2] = {5 , 5};
-	int *pointer = &num[1];
-	printf("%p\n ", pointer);
+	printf("test, test");
+	return (0);
 }
 
-int value()
+int point(void)
 {
-	int lol = 5;
-	return (lol);
-} 
-
-
-void incrementAge(int *agePointer)
-{
-	*agePointer += 1;
-}
-
-int pointer1(void)
-{
-	int age = 18;
-	incrementAge(&age);
-	printf("%d \n", age);
+	int *pointer;
+	int array[5][6];
 }

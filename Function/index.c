@@ -1,15 +1,13 @@
 #include "main.c"
 
 /**
- * main - Entry point
+ * main - contain everything
  *
- * Description: print value of n satus; zero, positive or negative
- *
- * Return: Always 0 (Success)
+ * Return: Return 0
  */
 
 int main(void)
 {
-	pointer();
-	pointer1();
+	size();
+	point();
 }
