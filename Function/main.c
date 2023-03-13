@@ -91,3 +91,12 @@ int upper(void)
 	emojie = toupper(string);
 	printf("it make the letter from lower to upper :o magic : %c", emojie);
 }
+
+
+int lower(void)
+{
+	char star = "S";
+
+	printf("this make the word lower case like s it becaume %c", isupper(star));
+	return (0);
+}

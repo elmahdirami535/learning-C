@@ -17,4 +17,5 @@ int main(void)
 	bambo();
 	omg();
 	upper();
+	lower();
 }
