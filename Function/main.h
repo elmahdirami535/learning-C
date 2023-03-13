@@ -15,5 +15,6 @@ int strcpyy(void);
 int abss(void);
 int bambo(void);
 int omg(void);
+int upper(void);
 
 #endif

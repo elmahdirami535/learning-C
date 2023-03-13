@@ -16,4 +16,5 @@ int main(void)
 	abss();
 	bambo();
 	omg();
+	upper();
 }

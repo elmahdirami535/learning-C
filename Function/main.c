@@ -82,3 +82,10 @@ int omg(void)
 	results = log(i);
 	printf("the logarithm of %.2lf , is %.5lf \n\n", i , results);
 }
+
+int upper(void)
+{
+	char string[] = {"hello, what's up"};
+
+	printf("it make the letter from lower to upper :o magic %s", toupper(string));
+}
