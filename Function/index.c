@@ -14,4 +14,6 @@ int main(void)
 	strcatt();
 	strcpyy();
 	abss();
+	bambo();
+	omg();
 }

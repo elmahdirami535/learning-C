@@ -55,16 +55,30 @@ int strcatt(void)
 int strcpyy(void)
 {
 	char source[] = {"what's your name"};
-	char malinwa[50];
+	char omg[50];
 
-	strcpy(malinwa, source);
-	printf("this is what does the strcpy do %s \n\n, malinwa");
+	strcpy(omg, source);
+	printf("this is what does the strcpy do %s \n\n", omg);
 }
 
 int abss(void)
 {
-	int hey = 15
+	int hey = -19;
 	int value;
 	value = abs(hey);
-	printf("%i, value");
+	printf("%i\n\n", value);
+}
+
+int bambo(void)
+{
+	double omg = 9.7;
+	printf("Ceiling of %.1f = %.1f \n\n", omg, ceil(omg));
+}
+
+int omg(void)
+{
+	double i = 100;
+	double results;
+	results = log(i);
+	printf("the logarithm of %.2lf , is %.5lf \n\n", i , results);
 }
