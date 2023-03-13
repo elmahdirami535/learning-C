@@ -13,4 +13,5 @@ int main(void)
 	strleen();
 	strcatt();
 	strcpyy();
+	abss();
 }

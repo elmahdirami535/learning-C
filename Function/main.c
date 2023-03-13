@@ -60,3 +60,7 @@ int strcpyy(void)
 	strcpy(malinwa, source);
 	printf("this is what does the strcpy do %s \n\n, malinwa");
 }
+
+int abss(void)
+{
+}

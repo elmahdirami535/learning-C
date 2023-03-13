@@ -11,6 +11,6 @@ int size(void);
 int strleen(void);
 int strcatt(void);
 int strcpyy(void);
-
+int abss(void);
 
 #endif
