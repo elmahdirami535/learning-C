@@ -137,7 +137,28 @@ int curent_time(void)
 	return (0);
 }
 
+int my_puts(void)
+{
+
+	char str[] = {"hello omg that mind blowing"};
+
+	puts(str);
+	return (0);
+}
 
 
+int my_putchar(void)
+{
+	char ch = 'S';
 
+	putchar(ch);
+	return (0);
+}
+
+int my_getchar(void)
+{
+	printf("\n\n this is how the getchar an putchar work\n");
+	char ch = getchar();
+	putchar(ch);
+}
 

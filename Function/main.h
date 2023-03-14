@@ -22,5 +22,8 @@ int uppermaybe(void);
 int my_random(void);
 int my_srand(void);
 int curent_time(void);
+int my_puts(void);
+int my_putchar(void);
+int my_getchar(void);
 
 #endif

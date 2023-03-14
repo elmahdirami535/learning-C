@@ -21,4 +21,7 @@ int main(void)
 	my_random();
 	my_srand();
 	curent_time();
+	my_puts();
+	my_putchar();
+	my_getchar();
 }
