@@ -114,3 +114,30 @@ int my_random(void)
 	int r = rand() % 100;
 	printf("%d\n\n", r);
 }
+
+
+int my_srand(void)
+{
+	int i ;
+
+	srand(time(0));
+
+	printf("%i\n\n\n\n", rand());
+}
+
+int curent_time(void)
+{
+	//eclare a variable called now
+	time_t now;
+
+	//get the current time
+	time(&now);
+
+	printf("this is the time today : %s\n\n", ctime(&now));
+	return (0);
+}
+
+
+
+
+

@@ -20,5 +20,7 @@ int omg(void);
 int upper(void);
 int uppermaybe(void);
 int my_random(void);
+int my_srand(void);
+int curent_time(void);
 
 #endif

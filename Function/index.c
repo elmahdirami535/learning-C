@@ -19,4 +19,6 @@ int main(void)
 	upper();
 	uppermaybe();
 	my_random();
+	my_srand();
+	curent_time();
 }
