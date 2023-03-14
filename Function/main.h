@@ -25,5 +25,6 @@ int curent_time(void);
 int my_puts(void);
 int my_putchar(void);
 int my_getchar(void);
+int my_argv(int argc, char *argv[]);
 
 #endif
