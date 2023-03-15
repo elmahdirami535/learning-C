@@ -164,11 +164,11 @@ int my_getchar(void)
 
 int my_argv(int argc, char *argv[])
 {
-	printf("\nenter a number :%d\n ",argc);
-	for (int i = 0 ; i < argc ; i++)
-	{
-		printf("Argument %d: %s\n", i, argv[i]);
-	}
-	return (0);
+    printf("\nEnter a number: ");
+    for (int i = 0 ; i < argc ; i++)
+    {
+        printf("Argument %d: %s\n", i, argv[i]);
+    }
+    return 0;
 }
 
