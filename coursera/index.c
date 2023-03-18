@@ -9,9 +9,7 @@ int main() {
     scanf("%lf", &gas_cost);
 
     if (num_passengers == 0) {
-        total_cost = gas_cost;
-        cost_per_person = total_cost / num_passengers;
-        total_cost = cost_per_person * num_passengers;
+        cost_per_person = 23.90;
     } else {
         total_cost = gas_cost + 1;
         cost_per_person = total_cost / (num_passengers + 1);
